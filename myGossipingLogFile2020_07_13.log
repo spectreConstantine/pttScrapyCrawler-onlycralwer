@@ -1,0 +1,115 @@
+2020-07-13 16:47:53 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: uptodatePtt)
+2020-07-13 16:47:53 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-07-13 16:47:53 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'uptodatePtt',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myGossipingLogFile2020_07_13.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'uptodatePtt.spiders',
+ 'SPIDER_MODULES': ['uptodatePtt.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) '
+               'Gecko/20100101 Firefox/77.0'}
+2020-07-13 16:47:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-07-13 16:47:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-07-13 16:47:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-07-13 16:47:53 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-07-13 16:47:53 [scrapy.core.engine] INFO: Spider opened
+2020-07-13 16:47:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-07-13 16:47:53 [getuptodatePtt] INFO: 進行[ Gossiping ] 板...
+2020-07-13 16:47:54 [py.warnings] WARNING: c:\program files (x86)\microsoft visual studio\shared\python37_64\lib\site-packages\scrapy\core\scraper.py:152: UserWarning: The "GetuptodatepttSpider.prase" method is a generator and includes a "return" statement with a value different than None. This could lead to unexpected behaviour. Please see https://docs.python.org/3/reference/simple_stmts.html#the-return-statement for details about the semantics of the "return" statement within generators
+  warn_on_generator_with_return_value(spider, callback)
+
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 網頁[https://www.ptt.cc/bbs/Gossiping/index.html]成功回應<parse>
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38979 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38978 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38977 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38976 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38975 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38974 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38973 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38972 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38971 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38970 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38969 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38968 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38967 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38966 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38965 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38964 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38963 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38962 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38961 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38960 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38959 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38958 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38957 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38956 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38955 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38954 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38953 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38952 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38951 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38950 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38949 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38948 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38947 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38946 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38945 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38944 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38943 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38942 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38941 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38940 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38939 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38938 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38937 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38936 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38935 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38934 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38933 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38932 ]
+2020-07-13 16:47:54 [getuptodatePtt] INFO: 往[ Gossiping ]板_下頁[ 38931 ]
+2020-07-13 16:48:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-07-13 16:48:33 [scrapy.extensions.feedexport] INFO: Stored json feed (960 items) in: myPttGossipingExporter.json
+2020-07-13 16:48:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 622003,
+ 'downloader/request_count': 1010,
+ 'downloader/request_method_count/GET': 1010,
+ 'downloader/response_bytes': 4343934,
+ 'downloader/response_count': 1010,
+ 'downloader/response_status_count/200': 1010,
+ 'elapsed_time_seconds': 39.694584,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 7, 13, 8, 48, 33, 462637),
+ 'item_scraped_count': 960,
+ 'log_count/INFO': 60,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 1010,
+ 'scheduler/dequeued': 1010,
+ 'scheduler/dequeued/memory': 1010,
+ 'scheduler/enqueued': 1010,
+ 'scheduler/enqueued/memory': 1010,
+ 'start_time': datetime.datetime(2020, 7, 13, 8, 47, 53, 768053)}
+2020-07-13 16:48:33 [scrapy.core.engine] INFO: Spider closed (finished)

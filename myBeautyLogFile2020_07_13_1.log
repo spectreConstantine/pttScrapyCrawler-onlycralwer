@@ -1,0 +1,69 @@
+2020-07-13 15:47:48 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: uptodatePtt)
+2020-07-13 15:47:48 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-07-13 15:47:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'uptodatePtt',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myBeautyLogFile2020_07_13_1.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'uptodatePtt.spiders',
+ 'SPIDER_MODULES': ['uptodatePtt.spiders'],
+ 'TELNETCONSOLE_ENABLED': False,
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) '
+               'Gecko/20100101 Firefox/77.0'}
+2020-07-13 15:47:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-07-13 15:47:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-07-13 15:47:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-07-13 15:47:49 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-07-13 15:47:49 [scrapy.core.engine] INFO: Spider opened
+2020-07-13 15:47:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-07-13 15:47:49 [getuptodatePtt] INFO: 進行[ Beauty ] 板...
+2020-07-13 15:47:49 [py.warnings] WARNING: c:\program files (x86)\microsoft visual studio\shared\python37_64\lib\site-packages\scrapy\core\scraper.py:152: UserWarning: The "GetuptodatepttSpider.prase" method is a generator and includes a "return" statement with a value different than None. This could lead to unexpected behaviour. Please see https://docs.python.org/3/reference/simple_stmts.html#the-return-statement for details about the semantics of the "return" statement within generators
+  warn_on_generator_with_return_value(spider, callback)
+
+2020-07-13 15:47:49 [getuptodatePtt] INFO: 網頁[https://www.ptt.cc/bbs/Beauty/index.html]成功回應<parse>
+2020-07-13 15:47:49 [getuptodatePtt] INFO: 往[ Beauty ]板_下頁[ 3353 ]
+2020-07-13 15:47:49 [getuptodatePtt] INFO: 往[ Beauty ]板_下頁[ 3352 ]
+2020-07-13 15:47:49 [getuptodatePtt] INFO: 往[ Beauty ]板_下頁[ 3351 ]
+2020-07-13 15:47:52 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-07-13 15:47:52 [scrapy.extensions.feedexport] INFO: Stored json feed (64 items) in: myPttBeautyExporter.json
+2020-07-13 15:47:52 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 38412,
+ 'downloader/request_count': 68,
+ 'downloader/request_method_count/GET': 68,
+ 'downloader/response_bytes': 311160,
+ 'downloader/response_count': 68,
+ 'downloader/response_status_count/200': 68,
+ 'elapsed_time_seconds': 3.693228,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 7, 13, 7, 47, 52, 767907),
+ 'item_scraped_count': 64,
+ 'log_count/INFO': 14,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 68,
+ 'scheduler/dequeued': 68,
+ 'scheduler/dequeued/memory': 68,
+ 'scheduler/enqueued': 68,
+ 'scheduler/enqueued/memory': 68,
+ 'start_time': datetime.datetime(2020, 7, 13, 7, 47, 49, 74679)}
+2020-07-13 15:47:52 [scrapy.core.engine] INFO: Spider closed (finished)
